@@ -4,3 +4,5 @@ Discover earthquake activity around the world with multiple filters and orders, 
 This app idea was from udacity course.
 
 This app was created from scratch and developed by BOUCHEMEL Nasreddine.
+
+Here's a link to download apk version http://gestyy.com/eqayEF
