@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Main"
+    android:id="@+id/parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        android:paddingVertical="10dp"
+        android:id="@+id/buttons"
+        android:background="@color/background">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="order by"
+            android:textColor="#fff"
+            android:id="@+id/orderBy"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="filter"
+            android:textColor="#fff"
+            android:id="@+id/filter"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/buttons"
+        android:gravity="center"
+        android:id="@+id/description"
+        android:background="@color/background"
+        android:paddingBottom="5dp"
+        android:textColor="#fff"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myList"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        android:layout_margin="10dp"
+        android:divider="@drawable/devider"
+        android:dividerHeight="3dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:id="@+id/orderView"
+        android:background="@drawable/order_filter_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".6"
+        app:layout_constraintWidth_percent=".8"
+        android:visibility="invisible">
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/cancel_order_button"
+            android:background="@drawable/cancel_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="order by"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/order1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/order2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/upDown1"
+            app:layout_constraintStart_toEndOf="@id/order1"
+            app:layout_constraintBottom_toTopOf="@id/order2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/order_down"
+            android:padding="10dp"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/order2"
+            app:layout_constraintTop_toBottomOf="@+id/order1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/upDown2"
+            app:layout_constraintStart_toEndOf="@id/order2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/order1"
+            android:background="@drawable/order_up"
+            android:padding="10dp"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/apply_order"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/reset_order"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:text="apply"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/reset_order"
+            android:text="reset"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/button"
+            app:layout_constraintStart_toEndOf="@+id/apply_order"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="5dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:id="@+id/filterView"
+        app:layout_constraintHeight_percent=".6"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/order_filter_background"
+        android:scrollbars="vertical"
+        android:visibility="invisible">
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/cancel_filter_button"
+            android:background="@drawable/cancel_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/filter_title"
+            android:text="Filters"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set min Mag"
+            android:textColor="#fff"
+            app:layout_constraintTop_toBottomOf="@+id/filter_title"
+            app:layout_constraintBottom_toTopOf="@id/setMaxMag"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/minMag"
+            android:id="@+id/setMinMag"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/minMag"
+            android:clickable="true"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="2"
+            app:layout_constraintBottom_toTopOf="@id/setMaxMag"
+            app:layout_constraintTop_toBottomOf="@+id/filter_title"
+            app:layout_constraintStart_toEndOf="@+id/setMinMag"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set max Mag"
+            android:textColor="#fff"
+            app:layout_constraintTop_toBottomOf="@+id/setMinMag"
+            app:layout_constraintBottom_toTopOf="@id/setStartDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/minMag"
+            android:id="@+id/setMaxMag"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maxMag"
+            android:clickable="true"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="8"
+            app:layout_constraintBottom_toTopOf="@id/setStartDate"
+            app:layout_constraintTop_toBottomOf="@+id/setMinMag"
+            app:layout_constraintStart_toEndOf="@+id/setMaxMag"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set start date"
+            android:textColor="#fff"
+            android:id="@+id/setStartDate"
+            app:layout_constraintTop_toBottomOf="@+id/setMaxMag"
+            app:layout_constraintBottom_toTopOf="@+id/setEndDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/maxMag"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/startDate"
+            android:text="2020-05-01"
+            android:textColor="#fff"
+            app:layout_constraintStart_toEndOf="@+id/setStartDate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/setMaxMag"
+            app:layout_constraintBottom_toTopOf="@id/setEndDate"
+            android:clickable="true"
+            android:focusable="false"
+            android:inputType="none" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="set end date"
+             android:id="@+id/setEndDate"
+             android:textColor="#fff"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintEnd_toStartOf="@+id/maxMag"
+             app:layout_constraintTop_toBottomOf="@+id/setStartDate"
+             app:layout_constraintBottom_toTopOf="@+id/countries"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/endDate"
+            android:textColor="#fff"
+            android:text="2020-06-01"
+            app:layout_constraintStart_toEndOf="@+id/setEndDate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/setStartDate"
+            app:layout_constraintBottom_toTopOf="@+id/countries"
+            android:clickable="true"
+            android:focusable="false"
+            android:inputType="none"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All countries"
+            android:textColor="#fff"
+            android:id="@+id/countries"
+            android:clickable="true"
+            android:focusable="false"
+            android:inputType="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/setEndDate"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/filter_title"
+            app:layout_constraintBottom_toBottomOf="@id/countries"
+            android:background="@drawable/popup_background"
+            android:id="@+id/countryView"
+            android:visibility="invisible"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="chose country"
+                android:textColor="#000"
+                android:gravity="center"/>
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/countryListView"
+                android:divider="@drawable/devider"
+                android:dividerHeight="1dp"
+                android:layout_marginBottom="33dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/apply_filter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/reset_filter"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:text="apply"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/reset_filter"
+            android:text="reset"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/button"
+            app:layout_constraintStart_toEndOf="@+id/apply_filter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="5dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

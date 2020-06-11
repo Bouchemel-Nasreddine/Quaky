@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_order_down.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\order_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\layout_country.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\layout\\country.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_order_down.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\order_down.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_order_down.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\order_down.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable_popup_button.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\drawable\\popup_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel_button.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\drawable\\cancel_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable_popup_background.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\drawable\\popup_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\layout\\popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable_order_filter_background.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\drawable\\order_filter_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable_xbutton.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\drawable\\xbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable_order_up.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\drawable\\order_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\layout_earthquake.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\layout\\earthquake.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\layout_datepopup.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\layout\\datepopup.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_order_down.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\order_down.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_order_down.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\order_down.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_order_down.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\order_down.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_order_down.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\order_down.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable_devider.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\drawable\\devider.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dell\\AndroidStudioProjects\\Quaky\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    }
+]

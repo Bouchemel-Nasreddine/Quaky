@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Quaky</string>
+    <string name="eventsLimit">events exceeds search limit of 20000. Modify the search to match fewer events.</string>
+</resources>
